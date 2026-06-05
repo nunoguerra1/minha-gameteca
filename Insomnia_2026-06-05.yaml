@@ -1,0 +1,91 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Gameteca-Microsservicos
+meta:
+  id: wrk_8a00d83079c345faad5dcf6f147ff9c5
+  created: 1780689473079
+  modified: 1780689473079
+  description: ""
+collection:
+  - url: http://localhost:3001/jogos
+    name: Jogos
+    meta:
+      id: req_1b357f9b75834f41bf3ddb57612544f8
+      created: 1780689491662
+      modified: 1780689518808
+      isPrivate: false
+      description: ""
+      sortKey: -1780689491662
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3002/usuarios
+    name: Usuários
+    meta:
+      id: req_03778306f0bc4e94b71525a5187607ef
+      created: 1780689523722
+      modified: 1780689537231
+      isPrivate: false
+      description: ""
+      sortKey: -1780689523722
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/biblioteca/1
+    name: Biblioteca
+    meta:
+      id: req_2fe79a68d59341ae86fb1fa92c4602cb
+      created: 1780689543287
+      modified: 1780689555445
+      isPrivate: false
+      description: ""
+      sortKey: -1780689543287
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_447a8986d045217cc521620d7fda1e17c5aaed97
+    created: 1780689473082
+    modified: 1780689473082
+environments:
+  name: Base Environment
+  meta:
+    id: env_447a8986d045217cc521620d7fda1e17c5aaed97
+    created: 1780689473080
+    modified: 1780689473080
+    isPrivate: false
